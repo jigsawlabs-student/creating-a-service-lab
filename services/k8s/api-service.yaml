@@ -1,11 +1,9 @@
 apiVersion: v1
-kind: Service
+kind: 
 metadata:
-  name: api-deployment-service
+  name:
 spec:
-  type: ClusterIP
+  type: 
   selector: 
-    component: api
-  ports: 
-    - port: 5000
-      targetPort: 5000
+    component:
+  ports:

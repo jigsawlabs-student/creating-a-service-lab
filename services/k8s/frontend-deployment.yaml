@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: frontend-deployment
 spec:
-  replicas: 2
+  replicas: 
   selector:
     matchLabels:
       component: frontend
@@ -13,9 +13,9 @@ spec:
         component: frontend
     spec:
       containers:
-        - name: restaurants-frontend
-          image: jek2141/restaurants_frontend:v4
+        - name: 
+          image: 
           ports:
-          - containerPort: 8501
+          - containerPort: 
 
 
